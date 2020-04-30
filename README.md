@@ -16,8 +16,8 @@ I am blessed to be married with 4 kids (all girls) and some animals for good mea
 component than with my family orgchart
 
 ```
-Import-Module -Name UniversalDashboard.Community -RequiredVersion 2.8.1
-Import-Module "C:\UD\GooglePieChart\OrgChart\src\output\UniversalDashboard.UDOrgChart\UniversalDashboard.UDOrgChart.psd1"
+Import-Module -Name UniversalDashboard
+Import-Module -Name UniversalDashboard.UDOrgChart
 Get-UDDashboard | Stop-UDDashboard
 Start-UDDashboard -Port 10005 -Dashboard (
     New-UDDashboard -Title "Powershell UniversalDashboard" -Content {
